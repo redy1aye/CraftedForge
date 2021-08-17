@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[37,)"
+license="MIT"
+
+[[mods]]
+modId="crafted"
+version="1.0"
+
+displayName="Crafted!"
+logoFile="craftedicon.png"
+authors="Redy1aye"
+description="Improved crafting of vanilla items!"
+
+[[dependencies.crafted]]
+    modId="forge"
+    mandatory=true
+    versionRange="[37,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.crafted]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.17.1,1.18)"
+    ordering="NONE"
+    side="BOTH"
